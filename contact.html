@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Контакты — Astra</title>
+<meta name="description" content="Связаться с Astra — заказать саунд-дизайн, купить трек или сотрудничество. Email и ссылки на соцсети." />
+<meta name="keywords" content="Astra, контакты, заказать саунд-дизайн, купить трек" />
+<meta name="author" content="Astra" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<h1 class="logo">Astra</h1>
+<nav class="main-nav">
+<a href="index.html">Главная</a>
+<a href="about.html">Обо мне</a>
+<a href="contact.html">Контакты</a>
+</nav>
+</div>
+</header>
+<main class="container contact">
+<h2>Контакты</h2>
+<p>Email: <a href="mailto:astra@example.com">astra@example.com</a></p>
+<p>SoundCloud: <a href="#">soundcloud.com/astra</a></p>
+<p>Bandcamp: <a href="#">astra.bandcamp.com</a></p>
+<h3>Форма заказа</h3>
+<form action="#" method="post" class="contact-form">
+<label>Ваше имя<br/><input type="text" name="name" required></label>
+<label>Email<br/><input type="email" name="email" required></label>
+<label>Сообщение<br/><textarea name="message" rows="6" required></textarea></label>
+<button type="submit" class="btn">Отправить</button>
+</form>
+</main>
+<footer>
+<div class="container">
+<small>© <span id="year"></span> Astra</small>
+</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
